@@ -7,17 +7,21 @@
   <style>
 :root{--navy:#12324a;--ink:#1a3345;--muted:#657886;--blue:#087cbb;--light-blue:#edf7fc;--red:#d6524b;--paper:#f4f7f8;--line:#dce5e9;--green:#22745b;--font:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.5 var(--font)}button,input,select,textarea{font:inherit}button,a,input,select,textarea{touch-action:manipulation}button,a.btn{cursor:pointer}button{color:inherit}button:disabled{cursor:default;opacity:.45}button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #4da7d8;outline-offset:4px}input:focus,select:focus,textarea:focus{border-color:#0784c8;outline:3px solid #b9e1f64d}input[aria-invalid="true"]{border-color:#bf423a}input,textarea,select{background:#fff;border:1px solid #d3dfe5;border-radius:6px;color:var(--ink);padding:11px 12px;width:100%;transition:border-color .15s}input::placeholder,textarea::placeholder{color:#84929c}svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}h1,h2,h3,p{margin-top:0}.topbar{height:86px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 max(32px,calc((100vw - 1480px)/2));background:#fff;border-top:4px solid var(--navy);border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:12px;letter-spacing:2px;font-size:14px;font-weight:800}.brand small{display:block;letter-spacing:1.4px;font-size:9px;color:var(--muted);font-weight:600;margin-top:2px}.brand-mark{display:grid;place-items:center;width:36px;height:40px;border-radius:7px;background:var(--navy);color:#fff;position:relative}.brand-mark:after{content:"";position:absolute;right:-4px;bottom:7px;background:var(--red);width:4px;height:17px;border-radius:0 2px 2px 0}.brand-mark svg{width:23px;height:23px}.top-actions{display:flex;gap:24px;align-items:center}.save-state{font-size:12px;color:var(--muted)}.save-state:before{content:"";display:inline-block;margin-right:7px;width:6px;height:6px;background:#5f9b8a;border-radius:100%}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid transparent;border-radius:7px;padding:11px 17px;font-weight:650;line-height:1.3;text-decoration:none;white-space:nowrap;min-height:43px;transition:background .15s,transform .15s}.btn:hover{transform:translateY(-1px)}.btn-primary{background:var(--navy);color:white}.btn-primary:hover{background:#204c68}.btn-secondary{background:#fff;border-color:#cad8e0}.btn-secondary:hover{background:#f0f5f8}.btn-danger{background:#b53b37;color:white}.btn-add{width:100%;background:var(--light-blue);color:#096b9e;border:1px solid #b8dcec}.btn-add:hover{background:#dceffa}.btn-add span{font-size:23px;line-height:1}main{max-width:1480px;padding:0 32px;margin:auto}.hero{padding:44px 0 32px;display:flex;justify-content:space-between;align-items:center;gap:32px}.eyebrow{font-size:10px;font-weight:750;letter-spacing:1.6px;display:flex;align-items:center;gap:10px;margin-bottom:14px}.red-dash{height:3px;width:25px;background:var(--red)}h1{font-size:clamp(30px,3vw,44px);letter-spacing:-1.5px;line-height:1.13;margin-bottom:16px;font-weight:750}h1 span{color:#708592;font-weight:450}.hero p{font-size:14px;line-height:1.7;color:#627482;margin:0}.activity-tag{min-width:185px;text-align:center;border-left:1px dashed #c8d5dc;padding:4px 18px 0 42px;transform:rotate(0deg)}.activity-tag span{font-size:9px;letter-spacing:1.8px;font-weight:650;display:block;color:#788c99}.activity-tag b{font-size:64px;letter-spacing:-5px;line-height:1.15;font-weight:450}.activity-tag svg{width:108px;height:34px;color:#7b94a3;margin-top:10px;stroke-width:1.2}.brief{display:grid;grid-template-columns:1fr 1.12fr 1.15fr;border:1px solid var(--line);border-radius:9px;background:#fff;margin-bottom:22px;padding:21px 0}.brief>div{padding:0 23px;display:flex;gap:14px;align-items:center;border-right:1px solid var(--line)}.brief>div:last-child{border:0}.step-no{color:var(--blue);font:500 22px/1 monospace;letter-spacing:-1px}.brief p{margin:0}.brief strong{display:block;font-size:13px}.brief p span{color:var(--muted);font-size:12px;display:block;margin-top:3px}.student-bar{display:grid;grid-template-columns:1fr 1.35fr 1.35fr .9fr;align-items:center;gap:24px;background:#e9f0f4;border:1px solid #dce6ec;padding:20px 24px;border-radius:9px}.student-intro strong{display:block;font-size:14px}.student-intro span{display:block;font-size:11px;color:var(--muted);margin-top:3px}label{font-size:12px;font-weight:650;display:block}label input,label select{margin-top:6px;font-weight:450}.required{color:#c54d44}.optional{font-size:11px;color:var(--muted);font-weight:400;margin-left:5px}.name-note{color:var(--muted);font-size:11px;border-left:1px solid #c8d7e0;padding-left:22px}.form-error{color:#ac362f;font-size:12px;margin:10px 0 0}.student-bar .form-error{grid-column:2/-1}.workspace{padding-top:35px}.workspace-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:19px;gap:16px}.workspace h2{font-size:19px;letter-spacing:-.5px;margin:0 0 4px}.workspace-heading p{font-size:12px;color:var(--muted);margin:0}.tabs{display:flex;padding:4px;background:#e4ebef;border-radius:8px;gap:4px}.tab{border:none;background:none;border-radius:5px;padding:8px 17px;min-height:38px;font-weight:650;font-size:12px}.tab.active{background:#fff;box-shadow:0 1px 3px #253d4712}.tab span{font-size:10px;color:var(--muted);font-weight:450;margin-left:8px}.build-layout{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:22px;align-items:start}.tables-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.entity-card{background:white;border:1px solid var(--line);border-radius:9px;overflow:hidden;box-shadow:0 3px 8px #193e5103}.entity-heading{display:flex;justify-content:space-between;align-items:center;padding:16px 19px;border-top:3px solid var(--entity-color);border-bottom:1px solid #e5edf1;background:#fafcfd}.entity-title{display:flex;align-items:center;gap:10px}.entity-title .table-icon{width:25px;height:25px;border-radius:5px;background:var(--entity-tint);color:var(--entity-color);display:grid;place-items:center}.table-icon svg{width:16px;height:16px}.entity-heading h3{font-size:14px;margin:0}.field-count{font-size:10px;color:var(--muted)}.field-count.ready{color:var(--green)}.fields{padding:9px 14px 1px}.field-row{display:flex;gap:7px;align-items:center;margin:6px 0}.field-index{font:10px monospace;color:#98a7b1;width:14px;flex-shrink:0}.field-row input{border-color:#e4ebef;background:#fcfdfd;padding:8px 9px;font-size:12px;min-width:0;height:35px}.field-row input:focus{background:white;border-color:var(--blue)}.icon-button{border:0;display:inline-grid;place-items:center;background:none;color:#8295a2;border-radius:5px;font-size:22px;line-height:1;width:32px;min-width:32px;height:32px}.icon-button:hover{background:#edf3f6;color:var(--ink)}.field-row .icon-button{font-size:19px;min-width:26px;width:26px}.entity-footer{padding:8px 17px 13px;display:flex;align-items:center;justify-content:space-between}.add-field{background:none;border:0;padding:6px 0;color:#2375a1;font-size:11px;font-weight:650}.entity-footer small{font-size:9px;color:#8c9aa5}.relationship-panel{background:white;border:1px solid var(--line);border-radius:9px;padding:22px 21px}.panel-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}.mini-label{font-size:9px;font-weight:750;letter-spacing:1.6px;color:#7d909d;display:block;margin-bottom:5px}.panel-heading h3{font-size:18px;letter-spacing:-.4px;margin:0}.counter{font:500 13px monospace;padding:5px 9px;background:#eff4f7;border-radius:6px}.panel-description{font-size:12px;line-height:1.65;color:var(--muted);margin-bottom:18px}.empty-relationships{text-align:center;padding:28px 5px 24px;color:#8396a3}.empty-relationships svg{width:39px;height:39px;color:#b0c2ce;margin-bottom:9px;stroke-width:1.2}.empty-relationships strong{font-size:12px;font-weight:550;display:block}.empty-relationships p{font-size:11px;margin:5px 0 0;line-height:1.7}.relationship-card{border:1px solid #dde7ec;padding:12px 11px 11px;margin-top:12px;border-radius:7px;background:#fcfdfe}.relationship-card-head{display:flex;align-items:center;justify-content:space-between}.relationship-id{font:600 10px monospace;color:#557b93}.relationship-actions{display:flex;gap:8px}.text-button{background:none;border:0;padding:4px 0;text-decoration:underline;text-underline-offset:3px;font-size:11px;color:var(--muted)}.text-button:hover{color:var(--blue)}.relationship-name{font-size:13px;font-weight:650;margin:3px 0 8px;overflow-wrap:anywhere}.relationship-ends{display:flex;align-items:center;gap:6px;font-size:10px;color:var(--muted)}.relationship-ends .end{flex:1;display:flex;gap:4px;align-items:center}.relationship-ends .end:last-child{justify-content:flex-end}.relationship-ends b{color:#25516c;border:1px solid #d8e5ec;border-radius:4px;padding:1px 4px;background:#f0f6f9;font:600 10px monospace}.cardinality-help{border-top:1px solid var(--line);padding-top:17px;margin-top:20px;font-size:11px}.cardinality-help summary{cursor:pointer;color:#466a80;font-weight:650}.cardinality-help p{color:var(--muted);line-height:1.7;margin:12px 0 0}.diagram-tip{border-radius:7px;background:#f1f6f9;color:#748b9a;display:flex;gap:11px;padding:12px;margin-top:22px}.diagram-tip svg{flex-shrink:0;margin-top:3px}.diagram-tip p{font-size:10px;line-height:1.6;margin:0}.notes-section{position:relative;border:1px solid var(--line);border-radius:9px;background:#fff;padding:21px 24px;margin-top:24px}.notes-section label{font-size:13px}.notes-section p{font-size:11px;color:var(--muted);margin:4px 0 12px}.notes-section textarea{resize:vertical;font-size:12px;min-height:88px;line-height:1.7}.note-count{display:block;color:#84949f;text-align:right;font-size:10px;margin-top:3px}.bottom-bar{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:25px 0 22px;border-bottom:1px solid var(--line)}.bottom-bar strong{font-size:13px;font-weight:650}.bottom-bar p{font-size:11px;color:var(--muted);margin:5px 0 0}footer{display:flex;justify-content:space-between;align-items:center;padding:15px 0 26px;gap:15px}footer p{font-size:10px;color:#8495a0;margin:0}.diagram-toolbar{padding:16px 20px;display:flex;gap:20px;justify-content:space-between;background:#fff;border:1px solid var(--line);border-radius:9px 9px 0 0;color:var(--muted);font-size:11px}.diagram-toolbar p{margin:0}.diagram-toolbar span{white-space:nowrap}.diagram-canvas{background:#fff;border:1px solid var(--line);border-top:none;overflow:auto}.diagram-canvas svg{display:block;width:100%;height:auto;min-width:760px;fill:none;stroke:none;stroke-linecap:initial;stroke-linejoin:initial}.diagram-key{background:#fff;border:1px solid var(--line);border-top:none;padding:20px 26px;border-radius:0 0 9px 9px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.diagram-key p{margin:0;font-size:12px;overflow-wrap:anywhere}.diagram-key .relationship-id{margin-right:8px}.diagram-key .key-note{color:var(--muted);grid-column:1/-1;font-size:11px}.diagram-key b{font-weight:650}dialog{border:1px solid #dce6ed;padding:26px;border-radius:13px;width:min(620px,calc(100vw - 30px));max-height:calc(100dvh - 40px);box-shadow:0 24px 80px #0d30472e;color:var(--ink);overflow:auto}dialog::backdrop{background:#0e2d4666;backdrop-filter:blur(3px)}.modal-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:23px}.modal-heading h2{font-size:23px;letter-spacing:-.6px;margin:0}.modal-heading .icon-button{align-self:flex-start}.connection-fields{display:grid;grid-template-columns:1fr 24px 1fr;gap:12px;align-items:center}.connection-arrow{text-align:center;color:var(--blue);font-size:22px;padding-top:23px}.block-label{margin-top:21px}.field-hint{font-size:11px;color:var(--muted);margin:7px 0 23px;overflow-wrap:anywhere}.cardinality-fields{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:19px;background:#f1f6f9;border-radius:7px}.cardinality-fields small{display:block;font-size:10px;color:var(--muted);font-weight:400;line-height:1.5;margin-top:7px}.modal-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:24px}.export-dialog{width:min(960px,calc(100vw - 30px))}.export-dialog .modal-heading{margin-bottom:10px}.export-intro{font-size:12px;color:var(--muted)}.export-preview{background:#e9eff3;padding:15px;max-height:56dvh;overflow:auto;border:1px solid #dce5ec;border-radius:8px;text-align:center}.export-preview img{width:100%;height:auto;display:block;box-shadow:0 3px 10px #16384e17;background:#fff}.export-warnings{background:#fff7e8;border:1px solid #ecd9b2;color:#806329;border-radius:6px;padding:10px 12px;margin-bottom:14px;font-size:11px;line-height:1.6}.export-warnings ul{margin:5px 0 2px;padding-left:18px}.export-warnings p{margin:0}.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:var(--navy);color:#fff;padding:12px 20px;border-radius:8px;box-shadow:0 5px 25px #12324a25;z-index:100;font-size:12px;max-width:90vw}.skip-link{position:absolute;top:-90px;left:10px;background:white;padding:10px;z-index:200}.skip-link:focus{top:10px}[hidden]{display:none!important}@media(min-width:1500px){main{padding:0}.topbar{padding-left:max(32px,calc((100vw - 1480px)/2));padding-right:max(32px,calc((100vw - 1480px)/2))}}@media(max-width:1150px){.build-layout{grid-template-columns:minmax(0,1fr) 290px}.relationship-panel{padding:18px 16px}.student-bar{grid-template-columns:.9fr 1.2fr 1.2fr;gap:18px}.name-note{display:none}.brief>div{padding:0 18px}.brief{grid-template-columns:1fr 1fr 1fr}.brief p span{font-size:11px}.activity-tag{padding-left:30px;min-width:160px}.entity-heading{padding:13px 14px}.entity-footer small{display:none}}@media(max-width:950px){.build-layout{grid-template-columns:1fr}.relationship-panel{padding:22px}.relationship-panel .panel-description{margin-bottom:14px}.diagram-tip{display:none}.save-state{display:none}#relationship-list:not(:has(.empty-relationships)){display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 14px}.empty-relationships{padding:20px 5px}.activity-tag{display:none}.brief>div{align-items:flex-start;gap:10px}.step-no{padding-top:2px}.hero{padding-top:35px}.student-bar{grid-template-columns:1fr 1fr}.student-intro{grid-column:1/-1;display:flex;justify-content:space-between}.student-bar .form-error{grid-column:1/-1}.brief p span{line-height:1.5}.diagram-toolbar{display:block}.diagram-toolbar span{display:block;margin-top:4px}.diagram-key{grid-template-columns:1fr}}@media(max-width:600px){main{padding:0 18px}.topbar{height:76px;padding:0 18px}.brand{font-size:11px;letter-spacing:1.4px;gap:9px}.brand small{font-size:7px;letter-spacing:.65px}.brand-mark{width:29px;height:34px}.topbar .btn{font-size:11px;padding:9px 11px;gap:6px;min-height:38px}.topbar .btn svg{width:15px}.hero{padding:28px 0 24px}.eyebrow{font-size:8px;letter-spacing:1px;gap:7px}.red-dash{width:16px}h1{font-size:31px;letter-spacing:-1px}.hero p{font-size:12px}.desktop-only{display:none}.brief{grid-template-columns:1fr;padding:0;gap:0}.brief>div{border-right:0;border-bottom:1px solid var(--line);padding:15px 18px;align-items:center;gap:14px}.brief p span{font-size:11px}.step-no{font-size:19px}.student-bar{padding:16px;gap:13px;grid-template-columns:1fr}.student-intro{grid-column:auto}.student-intro span{font-size:10px}.workspace{padding-top:26px}.workspace-heading{align-items:flex-start;flex-direction:column;gap:14px}.tabs{width:100%}.tab{flex:1}.tables-grid{grid-template-columns:1fr;gap:14px}.entity-footer small{display:block}.field-row input{font-size:13px;height:40px}.field-row .icon-button{width:34px;min-width:34px;height:38px}.relationship-panel{padding:18px}#relationship-list:not(:has(.empty-relationships)){grid-template-columns:1fr}.notes-section{padding:17px}.bottom-bar{align-items:stretch;flex-direction:column;gap:17px}.bottom-bar .btn{width:100%}footer{align-items:flex-start;gap:20px}footer p{max-width:75%;font-size:10px}dialog{padding:21px 18px}.modal-heading h2{font-size:21px}.connection-fields{gap:7px;grid-template-columns:1fr 18px 1fr}.cardinality-fields{grid-template-columns:1fr;gap:16px;padding:16px}.modal-actions{gap:8px}.modal-actions .btn{padding:11px 12px;font-size:12px}.export-preview{padding:6px}.export-dialog .modal-actions{position:sticky;bottom:-21px;background:white;padding:15px 0;margin-top:6px}.diagram-key{padding:18px}.diagram-canvas svg{min-width:700px}}@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
+/* Controls for student-created tables. */
+.table-toolbar{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:-2px 0 20px}.table-toolbar p{margin:0;color:var(--muted);font-size:12px}.table-toolbar .btn{font-size:12px}.entity-title{min-width:0}.entity-title h3{overflow-wrap:anywhere;line-height:1.4}.entity-title .table-icon{flex-shrink:0}.entity-heading{gap:14px}.field-count{white-space:nowrap;flex-shrink:0}.table-management{display:flex;gap:14px;align-items:center;padding:8px 17px 0}.table-management span{margin-right:auto;color:#7f919d;font-size:9px;letter-spacing:1px}.table-management .text-button{font-size:10px}.relationship-ends .end{min-width:0;overflow-wrap:anywhere;flex-wrap:wrap}.relationship-ends b{flex-shrink:0}#remove-table-description{overflow-wrap:anywhere;color:var(--muted);font-size:13px;line-height:1.7}@media(max-width:600px){.table-toolbar{align-items:stretch;flex-direction:column;gap:12px}.table-toolbar .btn{align-self:flex-start}.entity-heading{gap:10px}}
+
 </style>
 </head>
 <body>
   <a class="skip-link" href="#workspace">Skip to workspace</a>
   <header class="topbar"><div class="brand"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 6V4h8v2M5 7h14v13H5zM8 7v13M16 7v13"/></svg></span><span>DATABASE LAB<small>BUSINESS INFORMATION TECHNOLOGY</small></span></div><div class="top-actions"><span class="save-state" id="save-state" role="status">Your work stays in this browser</span><button class="btn btn-primary" id="export-top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5"/></svg>Export PNG</button></div></header>
   <main>
-    <section class="hero"><div><div class="eyebrow"><span class="red-dash"></span>AMERICAN AIRLINES · DATABASE DESIGN ACTIVITY</div><h1>Every bag has a journey.<br><span>Build the database behind it.</span></h1><p>Design a database for American Airlines’ baggage handling processes.<br class="desktop-only"> Work on your own or with one partner, then export your solution to submit.</p></div><div class="activity-tag" aria-hidden="true"><span>ACTIVITY</span><b>04</b><span>ENTITIES TO CONNECT</span><svg viewBox="0 0 108 34"><path d="M1 17h30m46 0h30"/><path d="m41 18 9-3 10-12 4 1-5 12 11 4-2 3-12-2-6 9-3-1 3-10-9 2z"/></svg></div></section>
+    <section class="hero"><div><div class="eyebrow"><span class="red-dash"></span>AMERICAN AIRLINES · DATABASE DESIGN ACTIVITY</div><h1>Every bag has a journey.<br><span>Build the database behind it.</span></h1><p>Design a database for American Airlines’ baggage handling processes.<br class="desktop-only"> Work on your own or with one partner, then export your solution to submit.</p></div><div class="activity-tag" aria-hidden="true"><span>ACTIVITY</span><b>04</b><span>STARTER TABLES</span><svg viewBox="0 0 108 34"><path d="M1 17h30m46 0h30"/><path d="m41 18 9-3 10-12 4 1-5 12 11 4-2 3-12-2-6 9-3-1 3-10-9 2z"/></svg></div></section>
     <section class="brief" aria-label="Activity instructions"><div><span class="step-no">01</span><p><strong>Define the fields</strong><span>Add at least four fields to each table.</span></p></div><div><span class="step-no">02</span><p><strong>Connect the tables</strong><span>Choose related tables and name each relationship.</span></p></div><div><span class="step-no">03</span><p><strong>Set both cardinalities</strong><span>Specify how many records belong at each end.</span></p></div></section>
     <section class="student-bar" aria-label="Student names"><div class="student-intro"><strong>Your submission</strong><span>One student or a pair of two</span></div><label>Student 1 <span class="required">*</span><input id="student1" autocomplete="name" maxlength="100" placeholder="Full name" required aria-describedby="name-error"></label><label>Student 2 <span class="optional">optional</span><input id="student2" autocomplete="off" maxlength="100" placeholder="Partner’s full name"></label><div class="name-note">Both names appear<br>on the exported image.</div><p id="name-error" class="form-error" hidden>Please enter Student 1’s name before exporting.</p></section>
     <section id="workspace" class="workspace" aria-labelledby="workspace-title">
       <div class="workspace-heading"><div><h2 id="workspace-title">Your database workspace</h2><p id="progress-text">0 of 4 tables have at least four fields</p></div><div class="tabs" role="tablist" aria-label="Workspace view"><button id="tab-build" class="tab active" role="tab" aria-selected="true" aria-controls="build-panel">Build</button><button id="tab-diagram" class="tab" role="tab" aria-selected="false" aria-controls="diagram-panel" tabindex="-1">Diagram<span id="link-count">0 links</span></button></div></div>
+      <div class="table-toolbar"><p>Start with the four provided tables. Add your own tables if your model needs them.</p><button class="btn btn-secondary" id="add-table"><span aria-hidden="true">＋</span>Add table</button></div>
       <div id="build-panel" role="tabpanel" aria-labelledby="tab-build" class="build-layout"><div class="tables-grid" id="tables-grid"></div><aside class="relationship-panel"><div class="panel-heading"><div><span class="mini-label">CONNECT THE MODEL</span><h3>Relationships</h3></div><span class="counter" id="relationship-count">0</span></div><p class="panel-description">Decide which tables belong together, then describe each connection.</p><button class="btn btn-add" id="add-relationship"><span aria-hidden="true">＋</span>Add relationship</button><div id="relationship-list"></div><details class="cardinality-help"><summary>How to read cardinality</summary><p>The value beside a table tells you how many of its records can relate to one record in the other table.</p><p><strong>1</strong> = one &nbsp; <strong>M</strong> = many<br><strong>0..1</strong> = zero or one<br><strong>1..M</strong> = one or many<br><strong>0..M</strong> = zero or many</p><p>Use the notation and assumptions discussed in class.</p></details><div class="diagram-tip"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="15" y="15" width="6" height="6" rx="1"/><path d="M6 9v9h9M9 6h9v9"/></svg><p>Open <strong>Diagram</strong> to see your fields and connections together.</p></div></aside></div>
       <div id="diagram-panel" role="tabpanel" aria-labelledby="tab-diagram" hidden><div class="diagram-toolbar"><p>Each labeled line connects two tables. Match its R-number to the full relationship below.</p><span>1 = one · M = many</span></div><div id="diagram-canvas" class="diagram-canvas"></div><div id="diagram-key" class="diagram-key"></div></div>
     </section>
@@ -25,14 +29,16 @@
     <div class="bottom-bar"><div><strong id="completion-summary">Start by adding fields to the four tables.</strong><p>Completion checks do not grade your design. Export the image and upload it to your course submission.</p></div><button class="btn btn-primary" id="export-bottom">Review &amp; export <span aria-hidden="true">↗</span></button></div>
     <footer><p>Progress is saved only in this browser. Pairs work together on one device.</p><button class="text-button" id="reset">Start over</button></footer>
   </main>
+  <dialog id="table-dialog" aria-labelledby="table-dialog-title"><form id="table-form"><div class="modal-heading"><div><span class="mini-label">EXTEND YOUR MODEL</span><h2 id="table-dialog-title">Add your own table</h2></div><button type="button" class="icon-button" id="close-table-dialog" aria-label="Close table editor">×</button></div><label>Table name<input id="table-name" maxlength="60" required autocomplete="off" placeholder="Name your table" aria-describedby="table-name-help table-error"></label><p class="field-hint" id="table-name-help">Choose a unique name. New tables start with four blank field rows.</p><p class="form-error" id="table-error" role="alert" hidden></p><div class="modal-actions"><button type="button" class="btn btn-secondary" id="cancel-table-dialog">Cancel</button><button type="submit" class="btn btn-primary" id="save-table">Add table</button></div></form></dialog>
+  <dialog id="remove-table-dialog" aria-labelledby="remove-table-title"><div class="modal-heading"><h2 id="remove-table-title">Remove this table?</h2></div><p id="remove-table-description"></p><div class="modal-actions"><button class="btn btn-secondary" id="cancel-remove-table">Keep table</button><button class="btn btn-danger" id="confirm-remove-table">Remove table</button></div></dialog>
   <dialog id="relationship-dialog" aria-labelledby="relationship-title"><form id="relationship-form"><div class="modal-heading"><div><span class="mini-label">CONNECT TWO TABLES</span><h2 id="relationship-title">Add a relationship</h2></div><button type="button" class="icon-button close-dialog" aria-label="Close relationship editor">×</button></div><div class="connection-fields"><label>From table<select id="rel-from" required><option value="">Choose a table</option></select></label><span class="connection-arrow" aria-hidden="true">→</span><label>To table<select id="rel-to" required><option value="">Choose a table</option></select></label></div><label class="block-label">Relationship name<input id="rel-name" maxlength="80" required placeholder="A verb or phrase describing the connection" autocomplete="off"></label><p class="field-hint" id="reading-hint">The name is read from the first table to the second.</p><div class="cardinality-fields"><label><span id="from-card-label">Cardinality at the first end</span><select id="rel-from-card" required></select><small id="from-card-hint">How many records at this end?</small></label><label><span id="to-card-label">Cardinality at the second end</span><select id="rel-to-card" required></select><small id="to-card-hint">How many records at this end?</small></label></div><p class="form-error" id="relationship-error" hidden></p><div class="modal-actions"><button type="button" class="btn btn-secondary close-dialog">Cancel</button><button type="submit" class="btn btn-primary" id="save-relationship">Add relationship</button></div></form></dialog>
   <dialog id="export-dialog" class="export-dialog" aria-labelledby="export-title"><div class="modal-heading"><div><span class="mini-label">READY TO SUBMIT</span><h2 id="export-title">Review your solution</h2></div><button class="icon-button" id="close-export" aria-label="Close export preview">×</button></div><p class="export-intro">Check your names and model below. Download the PNG, then upload it to your course assignment.</p><div id="export-warnings" class="export-warnings" hidden></div><div class="export-preview"><img id="export-preview-image" alt="Preview of your database solution including student names, table fields, relationships, cardinalities, and notes"></div><p id="export-error" class="form-error" hidden></p><div class="modal-actions"><button class="btn btn-secondary" id="back-editing">Back to editing</button><a class="btn btn-primary" id="download-png" download="baggage-database.png">Download PNG ↓</a></div></dialog>
-  <dialog id="reset-dialog" aria-labelledby="reset-title"><div class="modal-heading"><h2 id="reset-title">Start a new solution?</h2></div><p>This clears the names, fields, relationships, and notes saved in this browser. Download your current solution first if you need it.</p><div class="modal-actions"><button class="btn btn-secondary" id="cancel-reset">Keep working</button><button class="btn btn-danger" id="confirm-reset">Clear this solution</button></div></dialog>
+  <dialog id="reset-dialog" aria-labelledby="reset-title"><div class="modal-heading"><h2 id="reset-title">Start a new solution?</h2></div><p>This clears the names, added tables, fields, relationships, and notes saved in this browser, and restores the four starter tables. Download your current solution first if you need it.</p><div class="modal-actions"><button class="btn btn-secondary" id="cancel-reset">Keep working</button><button class="btn btn-danger" id="confirm-reset">Clear this solution</button></div></dialog>
   <div id="toast" class="toast" role="status" hidden></div>
   <script>
 (() => {
   'use strict';
-  const TABLES = [
+  const STARTER_TABLES = [
     {id:'flight',name:'Flight',color:'#147dab',tint:'#e9f5fa'},
     {id:'passenger',name:'Passenger',color:'#7772a8',tint:'#f0eef8'},
     {id:'ticket',name:'Ticket',color:'#258777',tint:'#eaf5f2'},
@@ -42,22 +48,36 @@
   const STORAGE_KEY = 'baggage-database-lab-v1';
   const $ = (id) => document.getElementById(id);
   const escape = (value) => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const nameOf = (id) => TABLES.find(t => t.id === id)?.name || '';
-  const fresh = () => ({version:1,student1:'',student2:'',notes:'',fields:Object.fromEntries(TABLES.map(t => [t.id,['','','','']])),relationships:[]});
+  const nameOf = (id) => state.tables.find(t => t.id === id)?.name || '';
+  const isStarter = (id) => STARTER_TABLES.some(t => t.id === id);
+  const normalizeName = (name) => name.trim().normalize('NFKC').toLocaleLowerCase();
+  const TABLE_COLORS = [{color:'#956b91',tint:'#f7eff6'},{color:'#57799a',tint:'#eef4f9'},{color:'#6d8750',tint:'#f1f5eb'},{color:'#b47156',tint:'#fbf1ec'}];
+  const fresh = () => ({version:2,student1:'',student2:'',notes:'',tables:STARTER_TABLES.map(t=>({...t})),fields:Object.fromEntries(STARTER_TABLES.map(t => [t.id,['','','','']])),relationships:[]});
   let storageAvailable=true, restored=false;
   function readSaved() {
     try {
       const raw=localStorage.getItem(STORAGE_KEY);
       if (!raw) return fresh();
       const saved=JSON.parse(raw), next=fresh();
-      if (saved.version!==1) return next;
+      if (![1,2].includes(saved.version)) return next;
+      // Retain the original storage key and migrate existing four-table solutions.
+      if (saved.version===2 && Array.isArray(saved.tables)) {
+        const ids=new Set(next.tables.map(t=>t.id)), names=new Set(next.tables.map(t=>normalizeName(t.name)));
+        for(const table of saved.tables) {
+          if(!table || typeof table.id!=='string' || !/^custom-[a-z0-9-]+$/.test(table.id) || ids.has(table.id) || typeof table.name!=='string')continue;
+          const name=table.name.trim().slice(0,60);
+          if(!name || names.has(normalizeName(name)))continue;
+          const palette=TABLE_COLORS[(next.tables.length-STARTER_TABLES.length)%TABLE_COLORS.length];
+          next.tables.push({id:table.id,name,...palette});next.fields[table.id]=['','','',''];ids.add(table.id);names.add(normalizeName(name));
+        }
+      }
       for (const key of ['student1','student2','notes']) if(typeof saved[key]==='string') next[key]=saved[key].slice(0,key==='notes'?1500:100);
-      for (const t of TABLES) if(Array.isArray(saved.fields?.[t.id]) && saved.fields[t.id].length) next.fields[t.id]=saved.fields[t.id].slice(0,40).map(x => typeof x==='string'?x.slice(0,80):'');
-      if(Array.isArray(saved.relationships)) next.relationships=saved.relationships.filter(r => r && TABLES.some(t=>t.id===r.from) && TABLES.some(t=>t.id===r.to) && r.from!==r.to && typeof r.name==='string' && CARDINALITIES.some(c=>c[0]===r.fromCard) && CARDINALITIES.some(c=>c[0]===r.toCard)).slice(0,40).map((r,i)=>({...r,id:'restored-'+i,name:r.name.slice(0,80)}));
+      for (const t of next.tables) if(Array.isArray(saved.fields?.[t.id]) && saved.fields[t.id].length) next.fields[t.id]=saved.fields[t.id].slice(0,40).map(x => typeof x==='string'?x.slice(0,80):'');
+      if(Array.isArray(saved.relationships)) next.relationships=saved.relationships.filter(r => r && next.tables.some(t=>t.id===r.from) && next.tables.some(t=>t.id===r.to) && r.from!==r.to && typeof r.name==='string' && CARDINALITIES.some(c=>c[0]===r.fromCard) && CARDINALITIES.some(c=>c[0]===r.toCard)).slice(0,40).map((r,i)=>({...r,id:'restored-'+i,name:r.name.slice(0,80)}));
       restored=true;return next;
     } catch {storageAvailable=false;return fresh();}
   }
-  let state=readSaved(), editingId=null, currentTab='build', saveTimer, exportObjectURL=null, toastTimer;
+  let state=readSaved(), editingId=null, editingTableId=null, removingTableId=null, currentTab='build', saveTimer, exportObjectURL=null, toastTimer;
   function save() {
     clearTimeout(saveTimer);
     try {localStorage.setItem(STORAGE_KEY,JSON.stringify(state));storageAvailable=true;$('save-state').textContent='Saved in this browser';}
@@ -68,23 +88,47 @@
   const filled = (id) => state.fields[id].map(s=>s.trim()).filter(Boolean);
   const distinctCount = (id) => new Set(filled(id).map(s=>s.toLocaleLowerCase())).size;
   function tableHTML(t) {
-    return `<section class="entity-card" style="--entity-color:${t.color};--entity-tint:${t.tint}" aria-labelledby="title-${t.id}"><div class="entity-heading"><div class="entity-title"><span class="table-icon" aria-hidden="true"><svg viewBox="0 0 20 20"><rect x="3" y="3" width="14" height="14" rx="2"/><path d="M3 8h14M8 8v9M3 12h14"/></svg></span><h3 id="title-${t.id}">${t.name}</h3></div><span class="field-count" id="count-${t.id}"></span></div><div class="fields">${state.fields[t.id].map((field,i)=>`<div class="field-row"><span class="field-index" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><input type="text" maxlength="80" autocomplete="off" data-table="${t.id}" data-field="${i}" aria-label="${t.name} field ${i+1}" placeholder="Field name" value="${escape(field)}"><button class="icon-button" data-remove-field="${i}" data-table="${t.id}" aria-label="Remove ${t.name} field ${i+1}" ${state.fields[t.id].length===1?'disabled':''}>×</button></div>`).join('')}</div><div class="entity-footer"><button class="add-field" data-add-field="${t.id}">＋ Add field</button><small>AT LEAST 4 FIELDS</small></div></section>`;
+    const name=escape(t.name);
+    const management=isStarter(t.id)?'':`<div class="table-management"><span>YOUR TABLE</span><button class="text-button" data-rename-table="${t.id}" aria-label="Rename ${name} table">Rename</button><button class="text-button" data-remove-table="${t.id}" aria-label="Remove ${name} table">Remove</button></div>`;
+    return `<section class="entity-card" style="--entity-color:${t.color};--entity-tint:${t.tint}" aria-labelledby="title-${t.id}"><div class="entity-heading"><div class="entity-title"><span class="table-icon" aria-hidden="true"><svg viewBox="0 0 20 20"><rect x="3" y="3" width="14" height="14" rx="2"/><path d="M3 8h14M8 8v9M3 12h14"/></svg></span><h3 id="title-${t.id}">${name}</h3></div><span class="field-count" id="count-${t.id}"></span></div>${management}<div class="fields">${state.fields[t.id].map((field,i)=>`<div class="field-row"><span class="field-index" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><input type="text" maxlength="80" autocomplete="off" data-table="${t.id}" data-field="${i}" aria-label="${name} field ${i+1}" placeholder="Field name" value="${escape(field)}"><button class="icon-button" data-remove-field="${i}" data-table="${t.id}" aria-label="Remove ${name} field ${i+1}" ${state.fields[t.id].length===1?'disabled':''}>×</button></div>`).join('')}</div><div class="entity-footer"><button class="add-field" data-add-field="${t.id}">＋ Add field</button><small>AT LEAST 4 FIELDS</small></div></section>`;
   }
-  function renderTables() {$('tables-grid').innerHTML=TABLES.map(tableHTML).join('');updateProgress();}
+  function renderTables() {$('tables-grid').innerHTML=state.tables.map(tableHTML).join('');updateProgress();}
   function updateProgress() {
     let ready=0;
-    for (const t of TABLES) {const n=distinctCount(t.id);if(n>=4)ready++;const el=$('count-'+t.id);if(el){el.textContent=n>=4?`${n} fields ✓`:`${n} / 4 fields`;el.classList.toggle('ready',n>=4);}}
-    $('progress-text').textContent=`${ready} of 4 tables have at least four distinct fields`;
+    const total=state.tables.length;
+    for (const t of state.tables) {const n=distinctCount(t.id);if(n>=4)ready++;const el=$('count-'+t.id);if(el){el.textContent=n>=4?`${n} fields ✓`:`${n} / 4 fields`;el.classList.toggle('ready',n>=4);}}
+    $('progress-text').textContent=`${ready} of ${total} tables have at least four distinct fields`;
     const n=state.relationships.length;$('relationship-count').textContent=n;$('link-count').textContent=`${n} ${n===1?'link':'links'}`;
-    $('completion-summary').textContent=ready===4 && n?`Four tables defined · ${n} ${n===1?'relationship':'relationships'} added. Review your model before submitting.`:ready===0 && n===0?'Start by adding fields to the four tables.':`${4-ready} ${4-ready===1?'table still needs':'tables still need'} at least four fields${n?'': ' · Add your relationships'}.`;
+    $('completion-summary').textContent=ready===total
+      ?`${total} tables defined${n?` · ${n} ${n===1?'relationship':'relationships'} added. Review your model before submitting.`:'. Add your relationships.'}`
+      :ready===0 && n===0?`Start by adding fields to your ${total} tables.`:`${total-ready} ${total-ready===1?'table still needs':'tables still need'} at least four fields${n?'': ' · Add your relationships'}.`;
   }
   function renderRelationships() {
-    $('relationship-list').innerHTML=state.relationships.length?state.relationships.map((r,i)=>`<article class="relationship-card"><div class="relationship-card-head"><span class="relationship-id">R${i+1}</span><div class="relationship-actions"><button class="text-button" data-edit-rel="${escape(r.id)}" aria-label="Edit relationship R${i+1}">Edit</button><button class="text-button" data-delete-rel="${escape(r.id)}" aria-label="Remove relationship R${i+1}">Remove</button></div></div><p class="relationship-name">${escape(r.name)}</p><div class="relationship-ends"><span class="end">${nameOf(r.from)} <b>${r.fromCard}</b></span><span aria-hidden="true">→</span><span class="end"><b>${r.toCard}</b> ${nameOf(r.to)}</span></div></article>`).join(''):`<div class="empty-relationships"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="3" y="9" width="14" height="14" rx="3"/><rect x="31" y="25" width="14" height="14" rx="3"/><path d="M17 16h7v16h7"/><circle cx="24" cy="24" r="2"/></svg><strong>No connections yet</strong><p>What does each table have<br>to do with the others?</p></div>`;
+    $('relationship-list').innerHTML=state.relationships.length?state.relationships.map((r,i)=>`<article class="relationship-card"><div class="relationship-card-head"><span class="relationship-id">R${i+1}</span><div class="relationship-actions"><button class="text-button" data-edit-rel="${escape(r.id)}" aria-label="Edit relationship R${i+1}">Edit</button><button class="text-button" data-delete-rel="${escape(r.id)}" aria-label="Remove relationship R${i+1}">Remove</button></div></div><p class="relationship-name">${escape(r.name)}</p><div class="relationship-ends"><span class="end">${escape(nameOf(r.from))} <b>${r.fromCard}</b></span><span aria-hidden="true">→</span><span class="end"><b>${r.toCard}</b> ${escape(nameOf(r.to))}</span></div></article>`).join(''):`<div class="empty-relationships"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="3" y="9" width="14" height="14" rx="3"/><rect x="31" y="25" width="14" height="14" rx="3"/><path d="M17 16h7v16h7"/><circle cx="24" cy="24" r="2"/></svg><strong>No connections yet</strong><p>What does each table have<br>to do with the others?</p></div>`;
     updateProgress();
   }
   function setTab(tab) {currentTab=tab;for(const id of ['build','diagram']){const active=id===tab;$('tab-'+id).classList.toggle('active',active);$('tab-'+id).setAttribute('aria-selected',String(active));$('tab-'+id).tabIndex=active?0:-1;$(id+'-panel').hidden=!active;}if(tab==='diagram')renderDiagram();}
-  const tableOptions=TABLES.map(t=>`<option value="${t.id}">${t.name}</option>`).join('');
-  for(const id of ['rel-from','rel-to'])$(id).insertAdjacentHTML('beforeend',tableOptions);
+  function refreshTableOptions() {
+    const options='<option value="">Choose a table</option>'+state.tables.map(t=>`<option value="${t.id}">${escape(t.name)}</option>`).join('');
+    for(const id of ['rel-from','rel-to']) {const previous=$(id).value;$(id).innerHTML=options;$(id).value=state.tables.some(t=>t.id===previous)?previous:'';}
+  }
+  function openTableEditor(id=null) {
+    if(id && isStarter(id))return;
+    editingTableId=id;const table=state.tables.find(t=>t.id===id);
+    $('table-form').reset();$('table-name').removeAttribute('aria-invalid');$('table-error').hidden=true;
+    $('table-dialog-title').textContent=table?'Rename your table':'Add your own table';
+    $('save-table').textContent=table?'Save name':'Add table';
+    $('table-name').value=table?.name||'';
+    $('table-name-help').textContent=table?'Relationships and saved fields will use the new name.':'Choose a unique name. New tables start with four blank field rows.';
+    $('table-dialog').showModal();$('table-name').focus();
+  }
+  function removeCustomTable(id) {
+    if(isStarter(id) || !state.tables.some(t=>t.id===id))return false;
+    state.tables=state.tables.filter(t=>t.id!==id);
+    delete state.fields[id];
+    state.relationships=state.relationships.filter(r=>r.from!==id && r.to!==id);
+    return true;
+  }
   for(const id of ['rel-from-card','rel-to-card'])$(id).innerHTML='<option value="">Choose cardinality</option>'+CARDINALITIES.map(([value,label])=>`<option value="${value}">${label}</option>`).join('');
   function updateRelationshipHints() {
     const from=$('rel-from').value,to=$('rel-to').value;
@@ -98,7 +142,7 @@
   }
   function openRelationship(id=null) {
     editingId=id;const r=state.relationships.find(r=>r.id===id);
-    $('relationship-form').reset();$('relationship-error').hidden=true;
+    refreshTableOptions();$('relationship-form').reset();$('relationship-error').hidden=true;
     $('rel-from').value=r?.from||'';$('rel-to').value=r?.to||'';$('rel-name').value=r?.name||'';$('rel-from-card').value=r?.fromCard||'';$('rel-to-card').value=r?.toCard||'';
     $('relationship-title').textContent=r?'Edit relationship':'Add a relationship';$('save-relationship').textContent=r?'Save relationship':'Add relationship';
     updateRelationshipHints();$('relationship-dialog').showModal();$('rel-from').focus();
@@ -120,52 +164,85 @@
   function txt(x,y,text,size=16,color='#243e50',weight=400,extra='') {return `<text x="${x}" y="${y}" font-size="${size}" fill="${color}" font-weight="${weight}" ${extra}>${escape(text)}</text>`;}
   function multiline(x,y,lines,size=16,color='#243e50',lineHeight=22,weight=400) {return lines.map((line,i)=>txt(x,y+i*lineHeight,line,size,color,weight)).join('');}
   function rect(x,y,w,h,fill,stroke='none',radius=0){return `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${radius}" fill="${fill}" stroke="${stroke}"/>`;}
+  let measureContext;
+  function wrapWidth(value,width,font) {
+    measureContext ||= document.createElement('canvas').getContext('2d');
+    if(!measureContext)return wrap(value,Math.max(10,Math.floor(width/9)));
+    measureContext.font=font;
+    const lines=[];
+    for(const paragraph of String(value).split('\n')) {
+      if(!paragraph.trim()){lines.push('');continue;}
+      let line='';
+      for(const word of paragraph.trim().split(/\s+/)) {
+        const candidate=line?line+' '+word:word;
+        if(measureContext.measureText(candidate).width<=width){line=candidate;continue;}
+        if(line){lines.push(line);line='';}
+        for(const char of word) {
+          if(line && measureContext.measureText(line+char).width>width){lines.push(line);line='';}
+          line+=char;
+        }
+      }
+      if(line)lines.push(line);
+    }
+    return lines.length?lines:[''];
+  }
   function graph() {
-    const W=1280,cw=390,gap=260,top=55;
-    const records=TABLES.map(t=>{
-      const fields=state.fields[t.id].map((f,i)=>({lines:wrap(f.trim()||`[Field ${i+1} not entered]`,38),empty:!f.trim()}));
-      const height=67+fields.reduce((h,f)=>h+Math.max(40,f.lines.length*20+18),0)+12;
-      return {...t,fields,height};
+    const W=1280,cw=390,top=55;
+    const ports=new Map(state.tables.map(t=>[t.id,[]]));
+    state.relationships.forEach((r,i)=>{ports.get(r.from).push(i);ports.get(r.to).push(i);});
+    const records=state.tables.map((t,i)=>{
+      const fields=state.fields[t.id].map((f,j)=>({lines:wrapWidth(f.trim()||`[Field ${j+1} not entered]`,cw-77,'15px Arial'),empty:!f.trim()}));
+      const nameLines=wrapWidth(t.name,cw-48,'bold 22px Arial'),headerHeight=nameLines.length*26+38;
+      const height=Math.max(headerHeight+fields.reduce((h,f)=>h+Math.max(40,f.lines.length*20+18),0)+22,headerHeight+ports.get(t.id).length*36+22);
+      return {...t,fields,nameLines,headerHeight,height,col:i%2,row:Math.floor(i/2),x:i%2===0?65:825};
     });
-    const topHeight=Math.max(records[0].height,records[1].height),bottomY=top+topHeight+gap;
-    records.forEach((t,i)=>{t.x=i%2===0?65:825;t.y=i<2?top:bottomY;});
-    const H=bottomY+Math.max(records[2].height,records[3].height)+55;
-    let body=rect(0,0,W,H,'#ffffff');
-    // Draw connectors first so every endpoint terminates cleanly at its table.
-    const pairs=new Map();state.relationships.forEach(r=>{const k=[r.from,r.to].sort().join('|');pairs.set(k,(pairs.get(k)||0)+1);});
-    const seen=new Map(),lineColors=['#397faa','#796ca3','#408875','#af7941','#827b55','#a46583'];
-    state.relationships.forEach((r,i)=>{
-      const a=records.find(t=>t.id===r.from),b=records.find(t=>t.id===r.to),k=[r.from,r.to].sort().join('|'),ordinal=seen.get(k)||0;seen.set(k,ordinal+1);
-      const count=pairs.get(k),lane=(ordinal-(count-1)/2)*32;
-      let p1,p2,fraction=.5;
-      if(a.y===b.y){const left=a.x<b.x;p1={x:a.x+(left?cw:0),y:a.y+a.height/2+lane};p2={x:b.x+(left?0:cw),y:b.y+b.height/2+lane};}
-      else if(a.x===b.x){const down=a.y<b.y;p1={x:a.x+cw/2+lane,y:a.y+(down?a.height:0)};p2={x:b.x+cw/2+lane,y:b.y+(down?0:b.height)};}
-      else {const down=a.y<b.y;p1={x:a.x+(a.x<b.x?cw-70:70)+lane,y:a.y+(down?a.height:0)};p2={x:b.x+(a.x<b.x?70:cw-70)+lane,y:b.y+(down?0:b.height)};const topTable=down?a:b;fraction=topTable.x===65?.26:.74;if(!down)fraction=1-fraction;}
-      const color=lineColors[i%lineColors.length],dx=p2.x-p1.x,dy=p2.y-p1.y,length=Math.hypot(dx,dy),ux=dx/length,uy=dy/length;
-      body+=`<path d="M${p1.x},${p1.y} L${p2.x},${p2.y}" stroke="${color}" stroke-width="2.5" fill="none"/>`;
-      for(const [p,sign,card] of [[p1,1,r.fromCard],[p2,-1,r.toCard]]){const x=p.x+sign*ux*28,y=p.y+sign*uy*28,w=Math.max(28,card.length*9+14);body+=rect(x-w/2,y-12,w,24,'#ffffff',color,5)+txt(x,y+5,card,14,color,700,'text-anchor="middle"');}
-      const lx=p1.x+dx*fraction,ly=p1.y+dy*fraction,label=wrap(`R${i+1} · ${r.name}`,26),lw=206,lh=label.length*18+16;
-      body+=rect(lx-lw/2,ly-lh/2,lw,lh,'#fff',color,7)+label.map((line,j)=>txt(lx,ly-lh/2+21+j*18,line,13,color,600,'text-anchor="middle"')).join('');
+    const byId=new Map(records.map(t=>[t.id,t])),rowCount=Math.ceil(records.length/2),bands=Array.from({length:rowCount},()=>[]);
+    const links=state.relationships.map((r,i)=>{
+      const a=byId.get(r.from),b=byId.get(r.to),lines=wrapWidth(`R${i+1} · ${r.name}`,184,'bold 13px Arial');
+      const link={...r,index:i,a,b,lines,height:lines.length*18+16};
+      bands[Math.min(a.row,b.row)].push(link);return link;
     });
+    let y=top;
+    for(let row=0;row<rowCount;row++) {
+      const tables=records.filter(t=>t.row===row),rowHeight=Math.max(...tables.map(t=>t.height));
+      tables.forEach(t=>t.y=y);
+      let labelTop=y+rowHeight+42;
+      for(const link of bands[row]){link.labelY=labelTop+link.height/2;labelTop+=link.height+24;}
+      y=bands[row].length?labelTop+38:y+rowHeight+(row<rowCount-1?130:0);
+    }
+    const H=y+55,lineColors=['#397faa','#796ca3','#408875','#af7941','#827b55','#a46583'];
+    let body=rect(0,0,W,H,'#ffffff'),badges='',labels='';
+    const endpoint=(t,index)=>({x:t.x+(t.col===0?cw:0),y:t.y+t.headerHeight+11+(ports.get(t.id).indexOf(index)+1)*(t.height-t.headerHeight-22)/(ports.get(t.id).length+1)});
+    // Route every connection through the center corridor, keeping paths out of table cards.
+    // Each relationship has its own label row, including connections that span several rows.
+    links.forEach(r=>{
+      const p1=endpoint(r.a,r.index),p2=endpoint(r.b,r.index),color=lineColors[r.index%lineColors.length];
+      const lane=(r.index%7)*2.8,left=518+lane,right=762-lane;
+      const sx=r.a.col===0?left:right,tx=r.a.col===r.b.col?(r.b.col===0?right:left):(r.b.col===0?left:right);
+      body+=`<path d="M${p1.x},${p1.y} H${sx} V${r.labelY} H${tx} V${p2.y} H${p2.x}" stroke="${color}" stroke-width="2.5" stroke-linejoin="round" fill="none"/>`;
+      for(const [p,t,card] of [[p1,r.a,r.fromCard],[p2,r.b,r.toCard]]){const x=p.x+(t.col===0?34:-34),w=Math.max(28,card.length*9+14);badges+=rect(x-w/2,p.y-12,w,24,'#fff',color,5)+txt(x,p.y+5,card,14,color,700,'text-anchor="middle"');}
+      labels+=rect(W/2-103,r.labelY-r.height/2,206,r.height,'#fff',color,7)+r.lines.map((line,j)=>txt(W/2,r.labelY-r.height/2+21+j*18,line,13,color,600,'text-anchor="middle"')).join('');
+    });
+    body+=badges+labels;
     records.forEach(t=>{
-      body+=rect(t.x,t.y,cw,t.height,'#fff','#d3e0e8',10)+rect(t.x,t.y,cw,58,t.tint,'none',10)+rect(t.x,t.y+44,cw,14,t.tint)+rect(t.x,t.y,5,t.height,t.color,'none',2);
-      body+=txt(t.x+24,t.y+36,t.name,22,t.color,700)+txt(t.x+cw-20,t.y+35,`${filled(t.id).length} fields`,12,'#6c8392',400,'text-anchor="end"');
-      let y=t.y+67;
-      t.fields.forEach((f,j)=>{const rowHeight=Math.max(40,f.lines.length*20+18);if(j)body+=`<path d="M${t.x+20} ${y-3}H${t.x+cw-18}" stroke="#e8eef2"/>`;body+=txt(t.x+23,y+19,String(j+1).padStart(2,'0'),11,'#91a3ae',400)+multiline(t.x+53,y+19,f.lines,15,f.empty?'#99a6af':'#294558',20);y+=rowHeight;});
+      body+=rect(t.x,t.y,cw,t.height,'#fff','#d3e0e8',10)+rect(t.x,t.y,cw,t.headerHeight,t.tint,'none',10)+rect(t.x,t.y+t.headerHeight-14,cw,14,t.tint)+rect(t.x,t.y,5,t.height,t.color,'none',2);
+      body+=multiline(t.x+24,t.y+34,t.nameLines,22,t.color,26,700)+txt(t.x+24,t.y+t.headerHeight-12,`${filled(t.id).length} fields${isStarter(t.id)?'':' · Student-added table'}`,12,'#6c8392');
+      let fieldY=t.y+t.headerHeight+10;
+      t.fields.forEach((f,j)=>{const rowHeight=Math.max(40,f.lines.length*20+18);if(j)body+=`<path d="M${t.x+20} ${fieldY-3}H${t.x+cw-18}" stroke="#e8eef2"/>`;body+=txt(t.x+23,fieldY+19,String(j+1).padStart(2,'0'),11,'#91a3ae')+multiline(t.x+53,fieldY+19,f.lines,15,f.empty?'#99a6af':'#294558',20);fieldY+=rowHeight;});
     });
-    if(!state.relationships.length)body+=txt(W/2,top+topHeight+gap/2,'Add relationships to connect your tables',16,'#91a1ab',400,'text-anchor="middle"');
+    if(!state.relationships.length)body+=txt(W/2,30,'Add relationships to connect your tables',16,'#91a1ab',400,'text-anchor="middle"');
     return {body,width:W,height:H};
   }
   function svgDocument(body,width,height){return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Baggage handling database solution">${body}</svg>`;}
   function renderDiagram() {
     const g=graph();$('diagram-canvas').innerHTML=svgDocument(g.body,g.width,g.height);
-    $('diagram-key').innerHTML=state.relationships.length?state.relationships.map((r,i)=>`<p><span class="relationship-id">R${i+1}</span><b>${nameOf(r.from)} (${r.fromCard})</b> → ${escape(r.name)} → <b>${nameOf(r.to)} (${r.toCard})</b></p>`).join('')+'<p class="key-note">The cardinality next to a table describes how many of its records may relate to one record in the other table.</p>':'<p class="key-note">Your relationships will appear here as you add them in the Build view.</p>';
+    $('diagram-key').innerHTML=state.relationships.length?state.relationships.map((r,i)=>`<p><span class="relationship-id">R${i+1}</span><b>${escape(nameOf(r.from))} (${r.fromCard})</b> → ${escape(r.name)} → <b>${escape(nameOf(r.to))} (${r.toCard})</b></p>`).join('')+'<p class="key-note">The cardinality next to a table describes how many of its records may relate to one record in the other table.</p>':'<p class="key-note">Your relationships will appear here as you add them in the Build view.</p>';
   }
   function reviewWarnings() {
     const warnings=[];
-    TABLES.forEach(t=>{if(distinctCount(t.id)<4)warnings.push(`${t.name}: fewer than four distinct field names.`);if(distinctCount(t.id)<filled(t.id).length)warnings.push(`${t.name}: a field name is repeated.`);if(state.fields[t.id].some(f=>!f.trim()))warnings.push(`${t.name}: there are blank field rows.`);});
+    state.tables.forEach(t=>{if(distinctCount(t.id)<4)warnings.push(`${t.name}: fewer than four distinct field names.`);if(distinctCount(t.id)<filled(t.id).length)warnings.push(`${t.name}: a field name is repeated.`);if(state.fields[t.id].some(f=>!f.trim()))warnings.push(`${t.name}: there are blank field rows.`);});
     if(!state.relationships.length)warnings.push('No relationships have been added.');
-    else {const connected=new Set(state.relationships.flatMap(r=>[r.from,r.to]));TABLES.forEach(t=>{if(!connected.has(t.id))warnings.push(`${t.name} has no relationship. Check whether your design is complete.`);});}
+    else {const connected=new Set(state.relationships.flatMap(r=>[r.from,r.to]));state.tables.forEach(t=>{if(!connected.has(t.id))warnings.push(`${t.name} has no relationship. Check whether your design is complete.`);});}
     return warnings;
   }
   function solutionSVG() {
@@ -209,8 +286,33 @@
       }finally{URL.revokeObjectURL(sourceURL);}
     }catch(error){toast(error.message+' Please try again.');}finally{triggers.forEach(b=>b.disabled=false);}
   }
+  $('add-table').addEventListener('click',()=>openTableEditor());
+  for(const id of ['close-table-dialog','cancel-table-dialog'])$(id).addEventListener('click',()=>$('table-dialog').close());
+  $('table-name').addEventListener('input',()=>{$('table-error').hidden=true;$('table-name').removeAttribute('aria-invalid');});
+  $('table-form').addEventListener('submit',e=>{
+    e.preventDefault();const name=$('table-name').value.trim();
+    const duplicate=state.tables.some(t=>t.id!==editingTableId && normalizeName(t.name)===normalizeName(name));
+    if(!name || duplicate){$('table-error').textContent=duplicate?'A table with this name already exists. Choose a different name.':'Enter a name for this table.';$('table-error').hidden=false;$('table-name').setAttribute('aria-invalid','true');$('table-name').focus();return;}
+    let id=editingTableId;
+    if(id){const table=state.tables.find(t=>t.id===id);if(!table || isStarter(id))return;table.name=name;}
+    else {id='custom-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,8);const palette=TABLE_COLORS[(state.tables.length-STARTER_TABLES.length)%TABLE_COLORS.length];state.tables.push({id,name,...palette});state.fields[id]=['','','',''];}
+    refreshTableOptions();renderTables();renderRelationships();setTab('build');changed();$('table-dialog').close();
+    document.querySelector(`input[data-table="${id}"][data-field="0"]`).focus();toast(editingTableId?'Table renamed.':'Table added. Define its fields and relationships.');
+  });
+  $('cancel-remove-table').addEventListener('click',()=>$('remove-table-dialog').close());
+  $('confirm-remove-table').addEventListener('click',()=>{
+    if(removeCustomTable(removingTableId)){refreshTableOptions();renderTables();renderRelationships();changed();toast('Table and its relationships removed.');}
+    removingTableId=null;$('remove-table-dialog').close();$('add-table').focus();
+  });
   $('tables-grid').addEventListener('input',e=>{const input=e.target;if(input.matches('input[data-field]')){state.fields[input.dataset.table][Number(input.dataset.field)]=input.value;changed();}});
   $('tables-grid').addEventListener('click',e=>{
+    const rename=e.target.closest('[data-rename-table]');if(rename){openTableEditor(rename.dataset.renameTable);return;}
+    const removeTable=e.target.closest('[data-remove-table]');if(removeTable){
+      const id=removeTable.dataset.removeTable;if(isStarter(id))return;
+      removingTableId=id;const count=state.relationships.filter(r=>r.from===id || r.to===id).length;
+      $('remove-table-description').textContent=`This removes “${nameOf(id)}”, all of its fields${count?`, and ${count} connected ${count===1?'relationship':'relationships'}`:''}. The other tables will be kept.`;
+      $('remove-table-dialog').showModal();return;
+    }
     const add=e.target.closest('[data-add-field]');if(add){const id=add.dataset.addField;if(state.fields[id].length>=40){toast('Each table supports up to 40 fields.');return;}state.fields[id].push('');renderTables();changed();document.querySelector(`input[data-table="${id}"][data-field="${state.fields[id].length-1}"]`).focus();return;}
     const remove=e.target.closest('[data-remove-field]');if(remove){const id=remove.dataset.table,index=Number(remove.dataset.removeField);if(state.fields[id].length<=1)return;if(state.fields[id][index].trim()&&!window.confirm(`Remove field “${state.fields[id][index]}” from ${nameOf(id)}?`))return;state.fields[id].splice(index,1);renderTables();changed();}
   });
@@ -232,9 +334,9 @@
   $('close-export').addEventListener('click',()=>$('export-dialog').close());$('back-editing').addEventListener('click',()=>$('export-dialog').close());
   $('download-png').addEventListener('click',()=>toast('Your PNG is ready. Upload it to your course assignment.'));
   $('reset').addEventListener('click',()=>$('reset-dialog').showModal());$('cancel-reset').addEventListener('click',()=>$('reset-dialog').close());
-  $('confirm-reset').addEventListener('click',()=>{state=fresh();for(const id of ['student1','student2','notes'])$(id).value='';$('note-count').textContent='0 / 1500';$('name-error').hidden=true;$('student1').removeAttribute('aria-invalid');renderTables();renderRelationships();setTab('build');save();$('reset-dialog').close();toast('A fresh workspace is ready.');});
+  $('confirm-reset').addEventListener('click',()=>{state=fresh();for(const id of ['student1','student2','notes'])$(id).value='';$('note-count').textContent='0 / 1500';$('name-error').hidden=true;$('student1').removeAttribute('aria-invalid');refreshTableOptions();renderTables();renderRelationships();setTab('build');save();$('reset-dialog').close();toast('A fresh workspace is ready.');});
   window.addEventListener('beforeunload',save);
-  renderTables();renderRelationships();
+  refreshTableOptions();renderTables();renderRelationships();
   $('save-state').textContent=!storageAvailable?'Saving unavailable — export before leaving':restored?'Previous work restored in this browser':'Your work stays in this browser';
 })();
 

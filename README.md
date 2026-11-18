@@ -27,7 +27,12 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a
 ## Student use
 
 - Enter Student 1’s full name. Student 2 is optional for pairs.
-- Add at least four distinct field names to each of the four tables.
+- Start with the four provided tables. Use **Add table** above the workspace to create
+  additional tables with unique names. Each new table starts with four blank field rows.
+- Add at least four distinct field names to each table.
+- Use **Rename** or **Remove** on a student-added table to manage it. Removing a table
+  asks for confirmation and also removes any relationships connected to that table.
+  The four starter tables remain part of the activity.
 - Use **Add relationship** to select two tables, name the connection, and specify
   cardinalities at both ends. Relationships can be edited or removed.
 - Switch to **Diagram** to view the model. The full relationship list also appears below it.
@@ -49,6 +54,10 @@ The activity opens with blank fields and no suggested relationships. It does not
 an answer key or grade a model. Completion messages check entered field names and
 connections, not the correctness of the design. Students can export a partial draft
 after reviewing the warnings.
+
+Saved work from the original four-table version is preserved when the page is replaced
+at the same address in the same browser. Added tables, names, fields, and relationships
+are saved together. The diagram grows to include every table.
 
 The PNG includes the activity title, student names, local export date, all field rows,
 the relationship diagram, full relationship details, both cardinalities, and any notes.
